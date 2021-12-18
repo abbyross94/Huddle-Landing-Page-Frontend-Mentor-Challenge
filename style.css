@@ -69,10 +69,11 @@ h1 {
     border-radius: 40px;
     border: none;
     color: white;
-    width: 20rem;
-    height: 4rem;
+    width: 16rem;
+    height: 3rem;
     font-weight: 700;
     margin-top: 10px;
+    box-shadow: 0px 0px 5px hsl(208, 11%, 55%);
 }
 
 .middle{
@@ -130,12 +131,6 @@ h1 {
     row-gap: 10px;
 }
 
-.free{
-    width: 16rem;
-    height: 3rem;
-    box-shadow: 0px 0px 5px hsl(208, 11%, 55%);
-}
-
 .ready_to_build h3{
     font-family: 'Poppins';
     font-size: 1.2rem;
@@ -185,11 +180,13 @@ ul li{
     color: white;
 }
 
-.footer_four i{
+.footer_four a{
     margin-right: 20px;
     padding: 5px;
     border: 1px solid white;
     border-radius: 50%;
+    text-decoration: none;
+    color: white;
 }
 
 .footer_four p{
@@ -249,6 +246,25 @@ ul li{
     }
 }
 
+.footer_four a:hover {
+    color:hsl(322, 100%, 66%);
+    border-color: hsl(322, 100%, 66%);
+}
 
+.get_started:hover {
+    background-color: white;
+    color: hsl(322, 100%, 66%);
+    transition: 0.5s;
+    
+}
+.tryIt:hover{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    transition: 0.5s;
+}
+.get_started:active, .tryIt:active {
+    transform: translateY(5px);
+    transition: 0.5s;
+}
 
 
